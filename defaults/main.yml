@@ -1,6 +1,8 @@
 ---
-app_dokuwiki_enabled: false
-app_dokuwiki_puid: '16704'
-app_dokuwiki_pgid: '16704'
-app_dokuwiki_tz: "Europe/Zurich"
-app_dokuwiki_dir: "/opt/app-dokuwiki"
+role_dokuwiki_image: 'lscr.io/linuxserver/dokuwiki'
+role_dokuwiki_container: 'dokuwiki'
+role_dokuwiki_puid: '1000'
+role_dokuwiki_pgid: '1000'
+role_dokuwiki_tz: 'Europe/Zurich'
+role_dokuwiki_dir: '/opt/app-dokuwiki'
+role_dokuwiki_network: 'app-network'
